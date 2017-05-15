@@ -1,5 +1,10 @@
 /* Empty. Add your own CSS if you like */
 /* Utilities */
+
+#cardlog{
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.5);
+}
+
 .link {
     color: #116262;
     font-weight: bold;
@@ -50,7 +55,7 @@ p {
 /* Menu */
 
 .menu .bar.bar-header.expanded {
-    background-image: url('../img/Material Wallpaper 44.2.png');
+    background-image: url('img/Material Wallpaper 44.2.png');
     background-size: 100%;
     background-position: 0%;
     transition: all .5s ease-in-out;
@@ -58,7 +63,6 @@ p {
 
 .menu.menu-left * {
     font-weight: 600;
-    color: black;
 }
 
 .item-radio input:checked ~ .item-content {

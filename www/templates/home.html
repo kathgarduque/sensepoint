@@ -1,5 +1,5 @@
 ﻿<ion-view view-title="Home">
-  <ion-content style="background-image: url('../img/Blue polygonal background.jpg');background-size: cover;">
+  <ion-content style="background-image: url('/img/Blue polygonal background.jpg');background-size: cover;">
   <!--Gauge-->
   	<div style="margin-top:50px;display: block;text-align:center;">
           
@@ -24,7 +24,7 @@
     <div class="row" ng-controller="HomeCtrl">
 
       <div class="col">
-          <div class="card responsive-card">
+          <div class="card">
             <div class="item item-text-wrap item-icon-left positive">
             <i class="icon ion-ios-calendar"></i>
               <b>{{date | date:'longDate'}}</b>
@@ -33,7 +33,7 @@
       </div>
 
       <div class="col">
-          <div class="card responsive-card">
+          <div class="card">
             <div class="item item-text-wrap item-icon-left positive">
             <i class="icon ion-ios-time"></i>
               <b>{{date | date:'mediumTime'}}</b>
@@ -44,13 +44,13 @@
     </div>
 
   
-    <div class="card responsive-card">
+    <div class="card">
       <div class="item item-text-wrap item-icon-left balanced">
             <i class="icon ion-checkmark-circled"></i><b>Normal Concentration: 240 PPM</b>
       </div>
     </div>
 
-    <div class="card responsive-card">
+    <div class="card">
       <div class="item item-text-wrap item-icon-left assertive">
         <i class="icon ion-alert-circled"></i><b>Threshold Limit: 700 PPM</b>
       </div>
