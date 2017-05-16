@@ -19,38 +19,29 @@
      </div>
 
     <!--Descriptions-->
-  <div class="container">
+  <div class="container" ng-controller="HomeCtrl">
 
-    <div class="row" ng-controller="HomeCtrl">
-
-      <div class="col">
-          <div class="card">
+        <div class="card" style="box-shadow: 0 3px 5px rgba(0, 0, 0, 0.5);">
             <div class="item item-text-wrap item-icon-left positive">
             <i class="icon ion-ios-calendar"></i>
-              <b>{{date | date:'longDate'}}</b>
+              <b>Date: {{date | date:'longDate'}}</b>
             </div>
+        </div>
+
+        <div class="card" style="box-shadow: 0 3px 5px rgba(0, 0, 0, 0.5);">
+          <div class="item item-text-wrap item-icon-left positive">
+              <i class="icon ion-ios-time"></i>
+                <b>Time: {{date | date:'mediumTime'}}</b>
           </div>
-      </div>
+        </div>
 
-      <div class="col">
-          <div class="card">
-            <div class="item item-text-wrap item-icon-left positive">
-            <i class="icon ion-ios-time"></i>
-              <b>{{date | date:'mediumTime'}}</b>
-            </div>
-          </div>
-      </div>
-
-    </div>
-
-  
-    <div class="card">
+    <div class="card" style="box-shadow: 0 3px 5px rgba(0, 0, 0, 0.5);">
       <div class="item item-text-wrap item-icon-left balanced">
             <i class="icon ion-checkmark-circled"></i><b>Normal Concentration: 240 PPM</b>
       </div>
     </div>
 
-    <div class="card">
+    <div class="card" style="box-shadow: 0 3px 5px rgba(0, 0, 0, 0.5);">
       <div class="item item-text-wrap item-icon-left assertive">
         <i class="icon ion-alert-circled"></i><b>Threshold Limit: 700 PPM</b>
       </div>
